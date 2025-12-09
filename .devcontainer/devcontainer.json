@@ -1,0 +1,17 @@
+{
+  "name": "Debian with Native Postgres",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cweijan.vscode-postgresql-client2"
+      ]
+    }
+  },
+  // this command will run immediately without asking for a password.
+  "postStartCommand": "sudo service postgresql start",
+  // Add the source command to .bashrc ONCE during creation of the container
+  "postCreateCommand": "echo 'source $PWD/.venv/bin/activate' >> ~/.bashrc"
+}
