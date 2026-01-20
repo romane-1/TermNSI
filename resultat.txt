@@ -1,0 +1,4 @@
+total 8
+drwxrwxrwx+ 2 vscode vscode 4096 Dec  9 14:23 cours
+-rw-rw-rw-  1 vscode root      9 Dec  9 12:55 README.md
+-rw-rw-rw-  1 vscode vscode    0 Jan 15 15:07 resultat.txt
